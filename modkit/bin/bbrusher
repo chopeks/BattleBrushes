@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Wrapper for running bbrusher.exe via Wine on Linux/macOS.
+# Place this script somewhere on your PATH (e.g., ~/.local/bin/bbrusher) and
+# ensure bbrusher.exe sits next to it, or set BBRUSHER_EXE to the full path.
+
+set -euo pipefail
+
+EXE="${BBRUSHER_EXE:-}"
+if [[ -z "$EXE" ]]; then
+  HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  EXE="$HERE/bbrusher.exe"
+fi
+
+if [[ ! -f "$EXE" ]]; then
+  echo "ERROR: bbrusher.exe not found at $EXE" >&2
+  echo "Set BBRUSHER_EXE or place bbrusher.exe next to this script." >&2
+  exit 1
+fi
+
+if ! command -v wine >/dev/null 2>&1; then
+  echo "ERROR: wine is not installed or not on PATH." >&2
+  exit 1
+fi
+
+exec wine "$EXE" "$@"
+

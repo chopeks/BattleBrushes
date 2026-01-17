@@ -1,0 +1,128 @@
+/*
+ * Battle Brothers Brush Tileset Plugin for Tiled 1.8.0+
+ * 
+ * This plugin provides import support for Battle Brothers .brush files
+ * 
+ * Author: Claude AI Assistant
+ * Version: 1.0
+ */
+
+// Simple logging function
+function brushLog(message) {
+    if (typeof tiled !== 'undefined' && tiled.log) {
+        tiled.log("[Brush Plugin] " + message);
+    } else {
+        console.log("[Brush Plugin] " + message);
+    }
+}
+
+// Error handling function
+function brushError(message) {
+    if (typeof tiled !== 'undefined' && tiled.error) {
+        tiled.error("[Brush Plugin] " + message);
+    } else {
+        console.error("[Brush Plugin] " + message);
+    }
+}
+
+// Main plugin object
+var brushTilesetFormat = {
+    name: "Battle Brothers Brush",
+    extension: "brush",
+    
+    supportsFile: function(fileName) {
+        try {
+            return fileName && fileName.toLowerCase().endsWith(".brush");
+        } catch (e) {
+            brushError("Error in supportsFile: " + e.toString());
+            return false;
+        }
+    },
+    
+    read: function(fileName) {
+        brushLog("Attempting to read brush file: " + fileName);
+        
+        try {
+            // Check if file exists and is readable
+            if (!fileName) {
+                throw new Error("No filename provided");
+            }
+            
+            // Create a simple tileset as fallback
+            var baseName = fileName.replace(/^.*[\\\/]/, '').replace(/\.[^.]*$/, '');
+            brushLog("Creating tileset with name: " + baseName);
+            
+            // Try to create tileset - this is where it might be failing
+            var tileset = null;
+            
+            // Different API calls for different Tiled versions
+            if (typeof Tileset === 'function') {
+                // Tiled 1.8+ constructor
+                tileset = new Tileset(baseName);
+                brushLog("Created tileset using new Tileset() constructor");
+            } else if (tiled && tiled.createTileset) {
+                // Alternative API
+                tileset = tiled.createTileset(baseName);
+                brushLog("Created tileset using tiled.createTileset()");
+            } else {
+                throw new Error("Unable to create tileset - no available API method found");
+            }
+            
+            if (!tileset) {
+                throw new Error("Failed to create tileset object");
+            }
+            
+            // Set basic properties
+            try {
+                tileset.setProperty("brushFile", fileName);
+                tileset.setProperty("brushVersion", 17);
+                tileset.setProperty("brushCategory", "terrain");
+                brushLog("Set basic tileset properties");
+            } catch (e) {
+                brushLog("Warning: Could not set tileset properties: " + e.toString());
+            }
+            
+            // For now, just return the empty tileset to test basic functionality
+            // Full binary parsing can be added once we confirm the API works
+            brushLog("Successfully created tileset, returning basic version");
+            return tileset;
+            
+        } catch (error) {
+            brushError("Failed to read brush file: " + error.toString());
+            brushError("Stack trace: " + (error.stack || "No stack trace available"));
+            return null;
+        }
+    },
+    
+    write: function(tileset, fileName) {
+        brushLog("Write functionality not yet implemented");
+        brushError("Export to .brush format is not yet supported in this version");
+        return false;
+    }
+};
+
+// Register the plugin with error handling
+try {
+    brushLog("Registering brush tileset format...");
+    
+    if (typeof tiled === 'undefined') {
+        throw new Error("Tiled JavaScript API is not available");
+    }
+    
+    if (typeof tiled.registerTilesetFormat === 'function') {
+        tiled.registerTilesetFormat("brush", brushTilesetFormat);
+        brushLog("Successfully registered brush tileset format");
+    } else if (typeof tiled.registerFormat === 'function') {
+        // Alternative registration method
+        tiled.registerFormat("brush", brushTilesetFormat);
+        brushLog("Successfully registered brush format (alternative method)");
+    } else {
+        throw new Error("No format registration method found in Tiled API");
+    }
+    
+} catch (error) {
+    brushError("Failed to register plugin: " + error.toString());
+    brushError("Available tiled methods: " + (typeof tiled === 'object' ? Object.keys(tiled).join(', ') : 'tiled not available'));
+}
+
+brushLog("Battle Brothers Brush plugin initialization complete");

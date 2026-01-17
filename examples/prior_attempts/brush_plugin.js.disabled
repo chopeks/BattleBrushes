@@ -1,0 +1,228 @@
+/*
+ * Battle Brothers Brush Tileset Plugin for Tiled
+ * 
+ * This plugin provides import/export support for Battle Brothers .brush files
+ * 
+ * Installation:
+ * 1. Copy this file to your Tiled plugins directory
+ * 2. Restart Tiled
+ * 3. The brush format will appear in File -> Open and Export As dialogs
+ */
+
+var brushFormat = {
+    name: "Battle Brothers brush format",
+    extension: "brush",
+
+    supportsFile: function(fileName) {
+        return fileName.toLowerCase().endsWith(".brush");
+    },
+
+    read: function(fileName) {
+        tiled.log("Loading Battle Brothers brush file: " + fileName);
+        
+        try {
+            // Read the brush file
+            var file = new BinaryFile(fileName, BinaryFile.ReadOnly);
+            
+            // Check magic bytes (0xBAADFAAD in little-endian)
+            var magic = file.readUInt32();
+            if (magic !== 0xBAADFAAD) {
+                tiled.error("Invalid brush file magic: 0x" + magic.toString(16));
+                file.close();
+                return null;
+            }
+            
+            // Read version
+            var version = file.readUInt16();
+            tiled.log("Brush version: " + version);
+            
+            // Read sheet path
+            var sheetPathLen = file.readUInt16();
+            var sheetPath = file.read(sheetPathLen);
+            file.seek(file.pos + 1); // Skip null terminator
+            
+            tiled.log("Sheet path: " + sheetPath);
+            
+            // Skip category header (12 bytes for now)
+            file.seek(file.pos + 12);
+            
+            // Create tileset
+            var tilesetName = FileInfo.baseName(fileName);
+            var tileset = new Tileset(tilesetName);
+            
+            // Set tileset properties
+            tileset.setProperty("brushVersion", version);
+            tileset.setProperty("sheetPath", sheetPath);
+            tileset.setProperty("brushCategory", "terrain"); // Default
+            
+            // Parse sprite records
+            var spriteCount = 0;
+            var maxSprites = 200; // Safety limit
+            
+            while (file.pos < file.size && spriteCount < maxSprites) {
+                try {
+                    // Read sprite ID length
+                    if (file.pos + 2 > file.size) break;
+                    var idLen = file.readUInt16();
+                    
+                    if (file.pos + idLen > file.size) break;
+                    var spriteId = file.read(idLen);
+                    
+                    // Skip 8-byte blob
+                    if (file.pos + 8 > file.size) break;
+                    file.seek(file.pos + 8);
+                    
+                    // Read rect data (simplified)
+                    if (file.pos + 22 > file.size) break;
+                    var width = file.readInt16();
+                    var height = file.readInt16();
+                    var offsetX = file.readInt16();
+                    var offsetY = file.readInt16();
+                    var flags = file.readUInt16();
+                    var ic = file.readUInt32();
+                    
+                    // Skip remaining rect data
+                    file.seek(file.pos + 8);
+                    
+                    // Read source path (null-terminated)
+                    var srcPathStart = file.pos;
+                    var srcPath = "";
+                    while (file.pos < file.size) {
+                        var byte = file.readUInt8();
+                        if (byte === 0) break;
+                        srcPath += String.fromCharCode(byte);
+                    }
+                    
+                    // Skip trailing floats (8 bytes)
+                    if (file.pos + 8 <= file.size) {
+                        file.seek(file.pos + 8);
+                    }
+                    
+                    // Create tile (placeholder image)
+                    var tile = tileset.addTile();
+                    
+                    // Set tile properties
+                    tile.setProperty("spriteId", spriteId);
+                    tile.setProperty("srcPath", srcPath);
+                    tile.setProperty("flagsF", flags);
+                    tile.setProperty("ic", "0x" + ic.toString(16).toUpperCase().padStart(8, '0'));
+                    
+                    if (offsetX !== 0) tile.setProperty("offsetX", offsetX);
+                    if (offsetY !== 0) tile.setProperty("offsetY", offsetY);
+                    if (width > 0) tile.setProperty("width", width);
+                    if (height > 0) tile.setProperty("height", height);
+                    
+                    spriteCount++;
+                    
+                } catch (e) {
+                    tiled.log("Error parsing sprite " + spriteCount + ": " + e);
+                    break;
+                }
+            }
+            
+            file.close();
+            
+            tiled.log("Loaded " + spriteCount + " sprites from brush file");
+            return tileset;
+            
+        } catch (error) {
+            tiled.error("Failed to read brush file: " + error);
+            return null;
+        }
+    },
+
+    write: function(tileset, fileName) {
+        tiled.log("Exporting tileset as Battle Brothers brush file: " + fileName);
+        
+        try {
+            // This is a simplified writer - full implementation would handle atlas packing
+            var file = new BinaryFile(fileName, BinaryFile.WriteOnly);
+            
+            // Write magic bytes
+            file.writeUInt32(0xBAADFAAD);
+            
+            // Write version
+            var version = tileset.property("brushVersion") || 17;
+            file.writeUInt16(version);
+            
+            // Write sheet path
+            var sheetPath = tileset.property("sheetPath") || ("gfx/" + tileset.name + ".png");
+            file.writeUInt16(sheetPath.length);
+            file.write(sheetPath);
+            file.writeUInt8(0); // Null terminator
+            
+            // Write category header (simplified - terrain defaults)
+            file.writeUInt8(6);  // b1
+            file.writeUInt8(1);  // b6
+            file.writeUInt8(0);  // b9
+            file.writeUInt8(1);  // b11
+            file.writeUInt32(4); // i0
+            
+            // Write sprite count
+            file.writeUInt16(tileset.tileCount);
+            
+            // Write atlas dimensions (placeholder)
+            file.writeUInt16(1024); // width
+            file.writeUInt16(1024); // height
+            
+            // Write sprite records (simplified)
+            for (var i = 0; i < tileset.tileCount; ++i) {
+                var tile = tileset.tile(i);
+                var spriteId = tile.property("spriteId") || ("tile_" + i);
+                var srcPath = tile.property("srcPath") || ("sprites\\" + spriteId + ".png");
+                
+                // Write sprite ID
+                file.writeUInt16(spriteId.length);
+                file.write(spriteId);
+                
+                // Write 8-byte blob (placeholder)
+                for (var j = 0; j < 8; j++) {
+                    file.writeUInt8(0);
+                }
+                
+                // Write rect data
+                var width = tile.property("width") || 32;
+                var height = tile.property("height") || 32;
+                var offsetX = tile.property("offsetX") || 0;
+                var offsetY = tile.property("offsetY") || 0;
+                var flags = tile.property("flagsF") || 0x64FF;
+                var ic = parseInt(tile.property("ic") || "0xFF000000", 16);
+                
+                file.writeInt16(width);
+                file.writeInt16(height);
+                file.writeInt16(offsetX);
+                file.writeInt16(offsetY);
+                file.writeUInt16(flags);
+                file.writeUInt32(ic);
+                
+                // Write edge data (simplified)
+                file.writeInt16(0); // left
+                file.writeInt16(0); // right
+                file.writeInt16(0); // top
+                file.writeInt16(0); // bottom
+                
+                // Write source path
+                file.write(srcPath);
+                file.writeUInt8(0); // Null terminator
+                
+                // Write trailing floats (placeholder)
+                file.writeFloat32(0.0);
+                file.writeFloat32(0.0);
+            }
+            
+            file.commit();
+            file.close();
+            
+            tiled.log("Exported " + tileset.tileCount + " tiles to brush file");
+            return true;
+            
+        } catch (error) {
+            tiled.error("Failed to write brush file: " + error);
+            return false;
+        }
+    }
+};
+
+tiled.registerTilesetFormat("brush", brushFormat);
+
+tiled.log("Battle Brothers Brush plugin loaded successfully");

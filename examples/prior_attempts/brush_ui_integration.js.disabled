@@ -1,0 +1,116 @@
+/*
+ * Battle Brothers Brush UI Integration for Tiled
+ * 
+ * This script adds seamless UI integration for .brush files:
+ * - File → Import → Battle Brothers Brush File
+ * - File → Export → Battle Brothers Brush File
+ * 
+ * True UI-only experience - no command line needed!
+ */
+
+var brushUI = tiled.registerAction("ImportBrushFile", function(action) {
+    // File dialog to select .brush file
+    var brushFile = tiled.getOpenFileName("Import Battle Brothers Brush File", 
+                                         tiled.activeAsset ? tiled.activeAsset.fileName : "",
+                                         "Battle Brothers Brush files (*.brush)");
+    
+    if (!brushFile) {
+        return; // User cancelled
+    }
+    
+    tiled.log("Importing brush file: " + brushFile);
+    
+    try {
+        // Run our converter in the background
+        var process = new Process();
+        var scriptPath = FileInfo.path(brushFile) + "/../brush_to_tiled.sh";
+        
+        // Check if our converter script exists
+        if (!File.exists(scriptPath)) {
+            // Look in common locations
+            var possiblePaths = [
+                tiled.extensionsPath + "/brush_to_tiled.sh",
+                "~/.local/share/tiled/plugins/brush_to_tiled.sh",
+                "./brush_to_tiled.sh"
+            ];
+            
+            scriptPath = null;
+            for (var i = 0; i < possiblePaths.length; i++) {
+                if (File.exists(possiblePaths[i])) {
+                    scriptPath = possiblePaths[i];
+                    break;
+                }
+            }
+        }
+        
+        if (!scriptPath) {
+            tiled.alert("Brush converter script not found. Please ensure brush_to_tiled.sh is in your plugins directory.");
+            return;
+        }
+        
+        // Generate output filename
+        var outputFile = FileInfo.path(brushFile) + "/" + FileInfo.baseName(brushFile) + "_converted.tsx";
+        
+        // Run the converter
+        process.start(scriptPath, [brushFile, outputFile]);
+        process.waitForFinished(30000); // 30 second timeout
+        
+        if (process.exitCode === 0) {
+            // Success! Open the converted tileset
+            tiled.log("Conversion successful, opening tileset...");
+            tiled.open(outputFile);
+            tiled.alert("Successfully imported brush file!\nConverted to: " + FileInfo.fileName(outputFile));
+        } else {
+            tiled.alert("Failed to convert brush file.\nError: " + process.readAllStandardError());
+        }
+        
+    } catch (error) {
+        tiled.alert("Error importing brush file: " + error.toString());
+    }
+});
+
+brushUI.text = "Import Battle Brothers Brush File...";
+brushUI.checkable = false;
+
+var exportBrushUI = tiled.registerAction("ExportBrushFile", function(action) {
+    if (!tiled.activeAsset || tiled.activeAsset.isTileMap) {
+        tiled.alert("Please open a tileset to export as brush file.");
+        return;
+    }
+    
+    var tileset = tiled.activeAsset;
+    
+    // Check if this is a converted brush file
+    var isBrushTileset = tileset.property("brushVersion") !== undefined;
+    
+    if (!isBrushTileset) {
+        var result = tiled.confirm("This doesn't appear to be a brush-converted tileset. Export anyway?", 
+                                  "Export may not preserve all Battle Brothers metadata.");
+        if (!result) {
+            return;
+        }
+    }
+    
+    // File dialog for save location
+    var outputFile = tiled.getSaveFileName("Export Battle Brothers Brush File",
+                                          tileset.fileName ? FileInfo.path(tileset.fileName) + "/" + FileInfo.baseName(tileset.fileName) + ".brush" : "untitled.brush",
+                                          "Battle Brothers Brush files (*.brush)");
+    
+    if (!outputFile) {
+        return; // User cancelled
+    }
+    
+    tiled.alert("Brush export functionality is not yet implemented.\n\nCurrently supported:\n• Import .brush → .tsx\n• Edit in Tiled\n• Use bbrusher.exe to pack back to .brush if needed");
+});
+
+exportBrushUI.text = "Export Battle Brothers Brush File...";
+exportBrushUI.checkable = false;
+
+// Add to File menu
+tiled.extendMenu("File", [
+    { separator: true },
+    { action: "ImportBrushFile" },
+    { action: "ExportBrushFile" }
+]);
+
+tiled.log("Battle Brothers Brush UI integration loaded - check File menu for import/export options!");

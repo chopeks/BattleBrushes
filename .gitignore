@@ -8,3 +8,5 @@ build/
 # Unpacked assets (if not needed)
 unpacked/
 
+*.stash
+*.tiled-session
