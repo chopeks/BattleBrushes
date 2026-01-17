@@ -2,6 +2,10 @@
 
 Tiled plugin and tools for working with Battle Brothers `.brush` files. Enables map editing workflows for BB modding without external tools like `bbrusher.exe`.
 
+![Tiled hex map editor with BB terrain](screenshots/map-editor.webp)
+
+*Editing Battle Brothers tactical maps in Tiled with terrain tiles and objects*
+
 ## What's Included
 
 ### Tiled Integration
@@ -64,6 +68,10 @@ qbs build
 
 ## Converting Tiled Maps to Battle Brothers
 
+![Object placement with tileset palette](screenshots/map-parts.webp)
+
+*Building structures with walls, roofs, and terrain objects*
+
 Export Tiled hex maps as BB tactical templates:
 
 ```bash
@@ -77,6 +85,10 @@ python3 tiled_to_nut.py map.json Terrain.json \
 - Layer names `height 0`, `height 1`, etc. define elevation
 - Terrain inferred from tileset image names (e.g., `grass_01` → `grass1`)
 - Unknown tiles default to grass
+
+![Custom map running in Battle Brothers](screenshots/map-signature.webp)
+
+*A custom tactical map running in-game*
 
 ## .brush File Format
 
