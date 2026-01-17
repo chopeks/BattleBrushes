@@ -1,6 +1,10 @@
 # BattleBrushes
 
-Tiled plugin and tools for working with Battle Brothers `.brush` files. Enables map editing workflows for BB modding without external tools like `bbrusher.exe`.
+Tiled plugin and tools for working with Battle Brothers `.brush` files. Enables UI based map and tileset editing workflows for BB modding without command line tools like `bbrusher.exe`. 
+
+The maps can then be exported as .nut files and loaded via Legends custom maps folder which will autodiscover them and enable them for custom tactical battles 
+
+The ability to save tilesets as brush files can enable simpler visual pathways for artists to get their art in game, though a full paperdoll interface is not yet provided.
 
 ![Tiled hex map editor with BB terrain](screenshots/map-editor.webp)
 
@@ -28,6 +32,7 @@ Tiled plugin and tools for working with Battle Brothers `.brush` files. Enables 
 - **build_for_system_tiled.sh** - Build plugin for system Tiled installation
 - **build_and_test.sh** - Full build and validation pipeline
 - **test_plugin_success.sh** - Verify plugin installation
+
 
 ## Quick Start
 
