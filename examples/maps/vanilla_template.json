@@ -204,11 +204,11 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"vanilla_terrain.tsj"
+         "source":"../tilesets/vanilla_terrain.tsj"
         }, 
         {
          "firstgid":52,
-         "source":"vanilla_objects.tsj"
+         "source":"../tilesets/vanilla_objects.tsj"
         }],
  "tilewidth":170,
  "type":"map",

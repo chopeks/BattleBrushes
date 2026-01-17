@@ -36,18 +36,26 @@ The ability to save tilesets as brush files can enable simpler visual pathways f
 
 ## Quick Start
 
+### Option 0: Generate Vanilla Tilesets From Your Game Install
+
+```bash
+python3 generate_vanilla_tilesets.py
+```
+
+The script prompts for your Battle Brothers install directory, then writes tilesets to `out/vanilla_tilesets/`.
+
 ### Option 1: Use the Standalone Converter (No Build Required)
 
 ```bash
 # Convert a brush file to Tiled format
-python3 brush_to_tileset.py terrain.brush terrain.tsx
+python3 brush_to_tileset.py examples/original_packed_brush_example/brushes/terrain.brush out/terrain.tsx
 
 # This creates:
-# - terrain.tsx (Tiled tileset)
-# - terrain_sprites/ (extracted PNGs)
+# - out/terrain.tsx (Tiled tileset)
+# - out/terrain_sprites/ (extracted PNGs)
 ```
 
-Then open `terrain.tsx` in Tiled.
+Then open `out/terrain.tsx` in Tiled.
 
 ### Option 2: GUI Importer
 
@@ -80,9 +88,9 @@ qbs build
 Export Tiled hex maps as BB tactical templates:
 
 ```bash
-python3 tiled_to_nut.py map.json Terrain.json \
+python3 tiled_to_nut.py examples/maps/simple_template.json examples/tilesets/BBterrain.json \
     --name tactical.custom_map \
-    --out tactical_custom_map.nut
+    --out out/tactical_custom_map.nut
 ```
 
 ### Map Layer Conventions

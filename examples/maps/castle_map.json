@@ -110,15 +110,15 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"vanilla_terrain.tsj"
+         "source":"../tilesets/vanilla_terrain.tsj"
         }, 
         {
          "firstgid":52,
-         "source":"..\/..\/BB files\/tiled\/legends.tsj"
+         "source":"..\/tilesets\/legends.tsj"
         }, 
         {
          "firstgid":160,
-         "source":"..\/..\/BB files\/tiled\/vanilla_terrain.tsj"
+         "source":"..\/tilesets\/vanilla_terrain.tsj"
         }],
  "tilewidth":170,
  "type":"map",

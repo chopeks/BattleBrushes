@@ -14,1867 +14,1867 @@
  "tiles":[
         {
          "id":0,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/autumn_brush_01.png",
+         "image":"..\/..\/object_0\/objects\/autumn_brush_01.png",
          "imageheight":129,
          "imagewidth":134
         }, 
         {
          "id":1,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/autumn_brush_02.png",
+         "image":"..\/..\/object_0\/objects\/autumn_brush_02.png",
          "imageheight":127,
          "imagewidth":162
         }, 
         {
          "id":2,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/autumn_brush_03.png",
+         "image":"..\/..\/object_0\/objects\/autumn_brush_03.png",
          "imageheight":120,
          "imagewidth":151
         }, 
         {
          "id":3,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/autumn_stone_01.png",
+         "image":"..\/..\/object_0\/objects\/autumn_stone_01.png",
          "imageheight":85,
          "imagewidth":130
         }, 
         {
          "id":4,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/autumn_stone_02_bottom.png",
+         "image":"..\/..\/object_0\/objects\/autumn_stone_02_bottom.png",
          "imageheight":74,
          "imagewidth":138
         }, 
         {
          "id":5,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/autumn_stone_02_top.png",
+         "image":"..\/..\/object_0\/objects\/autumn_stone_02_top.png",
          "imageheight":94,
          "imagewidth":137
         }, 
         {
          "id":6,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/autumn_stone_03_bottom.png",
+         "image":"..\/..\/object_0\/objects\/autumn_stone_03_bottom.png",
          "imageheight":152,
          "imagewidth":195
         }, 
         {
          "id":7,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/autumn_stone_03_top.png",
+         "image":"..\/..\/object_0\/objects\/autumn_stone_03_top.png",
          "imageheight":104,
          "imagewidth":144
         }, 
         {
          "id":8,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/boulder_01.png",
+         "image":"..\/..\/object_0\/objects\/boulder_01.png",
          "imageheight":129,
          "imagewidth":140
         }, 
         {
          "id":9,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/boulder_01_blood.png",
+         "image":"..\/..\/object_0\/objects\/boulder_01_blood.png",
          "imageheight":110,
          "imagewidth":74
         }, 
         {
          "id":10,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/boulder_02.png",
+         "image":"..\/..\/object_0\/objects\/boulder_02.png",
          "imageheight":136,
          "imagewidth":183
         }, 
         {
          "id":11,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/boulder_03.png",
+         "image":"..\/..\/object_0\/objects\/boulder_03.png",
          "imageheight":108,
          "imagewidth":161
         }, 
         {
          "id":12,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/boulder_04.png",
+         "image":"..\/..\/object_0\/objects\/boulder_04.png",
          "imageheight":136,
          "imagewidth":139
         }, 
         {
          "id":13,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/brush_01.png",
+         "image":"..\/..\/object_0\/objects\/brush_01.png",
          "imageheight":124,
          "imagewidth":157
         }, 
         {
          "id":14,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/brush_02.png",
+         "image":"..\/..\/object_0\/objects\/brush_02.png",
          "imageheight":129,
          "imagewidth":134
         }, 
         {
          "id":15,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/deser_plant_01.png",
+         "image":"..\/..\/object_0\/objects\/deser_plant_01.png",
          "imageheight":146,
          "imagewidth":186
         }, 
         {
          "id":16,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/deser_plant_02.png",
+         "image":"..\/..\/object_0\/objects\/deser_plant_02.png",
          "imageheight":151,
          "imagewidth":180
         }, 
         {
          "id":17,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/deser_plant_03.png",
+         "image":"..\/..\/object_0\/objects\/deser_plant_03.png",
          "imageheight":175,
          "imagewidth":89
         }, 
         {
          "id":18,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/deser_plant_04.png",
+         "image":"..\/..\/object_0\/objects\/deser_plant_04.png",
          "imageheight":103,
          "imagewidth":108
         }, 
         {
          "id":19,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/deser_plant_05.png",
+         "image":"..\/..\/object_0\/objects\/deser_plant_05.png",
          "imageheight":167,
          "imagewidth":127
         }, 
         {
          "id":20,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_cactus_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/desert_cactus_01_bottom.png",
          "imageheight":158,
          "imagewidth":63
         }, 
         {
          "id":21,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_cactus_01_top.png",
+         "image":"..\/..\/object_0\/objects\/desert_cactus_01_top.png",
          "imageheight":106,
          "imagewidth":60
         }, 
         {
          "id":22,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_cactus_02.png",
+         "image":"..\/..\/object_0\/objects\/desert_cactus_02.png",
          "imageheight":76,
          "imagewidth":37
         }, 
         {
          "id":23,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_cactus_03.png",
+         "image":"..\/..\/object_0\/objects\/desert_cactus_03.png",
          "imageheight":49,
          "imagewidth":58
         }, 
         {
          "id":24,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_cactus_05_bottom.png",
+         "image":"..\/..\/object_0\/objects\/desert_cactus_05_bottom.png",
          "imageheight":104,
          "imagewidth":84
         }, 
         {
          "id":25,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_cactus_05_top.png",
+         "image":"..\/..\/object_0\/objects\/desert_cactus_05_top.png",
          "imageheight":72,
          "imagewidth":70
         }, 
         {
          "id":26,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_detail_ruins_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/desert_detail_ruins_01_bottom.png",
          "imageheight":120,
          "imagewidth":174
         }, 
         {
          "id":27,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_detail_ruins_01_top.png",
+         "image":"..\/..\/object_0\/objects\/desert_detail_ruins_01_top.png",
          "imageheight":126,
          "imagewidth":146
         }, 
         {
          "id":28,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_detail_ruins_02_bottom.png",
+         "image":"..\/..\/object_0\/objects\/desert_detail_ruins_02_bottom.png",
          "imageheight":90,
          "imagewidth":174
         }, 
         {
          "id":29,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_detail_ruins_02_top.png",
+         "image":"..\/..\/object_0\/objects\/desert_detail_ruins_02_top.png",
          "imageheight":106,
          "imagewidth":148
         }, 
         {
          "id":30,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_detail_ruins_03.png",
+         "image":"..\/..\/object_0\/objects\/desert_detail_ruins_03.png",
          "imageheight":107,
          "imagewidth":190
         }, 
         {
          "id":31,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_stone_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/desert_stone_01_bottom.png",
          "imageheight":114,
          "imagewidth":164
         }, 
         {
          "id":32,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_stone_01_top.png",
+         "image":"..\/..\/object_0\/objects\/desert_stone_01_top.png",
          "imageheight":64,
          "imagewidth":164
         }, 
         {
          "id":33,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_stone_02.png",
+         "image":"..\/..\/object_0\/objects\/desert_stone_02.png",
          "imageheight":101,
          "imagewidth":194
         }, 
         {
          "id":34,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/desert_stone_03.png",
+         "image":"..\/..\/object_0\/objects\/desert_stone_03.png",
          "imageheight":73,
          "imagewidth":130
         }, 
         {
          "id":35,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/forest_treetrunk_01.png",
+         "image":"..\/..\/object_0\/objects\/forest_treetrunk_01.png",
          "imageheight":129,
          "imagewidth":131
         }, 
         {
          "id":36,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/forest_treetrunk_02.png",
+         "image":"..\/..\/object_0\/objects\/forest_treetrunk_02.png",
          "imageheight":129,
          "imagewidth":103
         }, 
         {
          "id":37,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/forest_treetrunk_03.png",
+         "image":"..\/..\/object_0\/objects\/forest_treetrunk_03.png",
          "imageheight":133,
          "imagewidth":116
         }, 
         {
          "id":38,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/forest_treetrunk_03_snow.png",
+         "image":"..\/..\/object_0\/objects\/forest_treetrunk_03_snow.png",
          "imageheight":135,
          "imagewidth":116
         }, 
         {
          "id":39,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/forest_treetrunk_04.png",
+         "image":"..\/..\/object_0\/objects\/forest_treetrunk_04.png",
          "imageheight":129,
          "imagewidth":131
         }, 
         {
          "id":40,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/road_cartwheel.png",
+         "image":"..\/..\/object_0\/objects\/road_cartwheel.png",
          "imageheight":94,
          "imagewidth":124
         }, 
         {
          "id":41,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/snow_boulder_01.png",
+         "image":"..\/..\/object_0\/objects\/snow_boulder_01.png",
          "imageheight":135,
          "imagewidth":182
         }, 
         {
          "id":42,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/snow_boulder_03.png",
+         "image":"..\/..\/object_0\/objects\/snow_boulder_03.png",
          "imageheight":95,
          "imagewidth":151
         }, 
         {
          "id":43,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/snow_boulder_04.png",
+         "image":"..\/..\/object_0\/objects\/snow_boulder_04.png",
          "imageheight":98,
          "imagewidth":132
         }, 
         {
          "id":44,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/snow_forest_treetrunk_01.png",
+         "image":"..\/..\/object_0\/objects\/snow_forest_treetrunk_01.png",
          "imageheight":132,
          "imagewidth":130
         }, 
         {
          "id":45,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/snow_forest_treetrunk_02.png",
+         "image":"..\/..\/object_0\/objects\/snow_forest_treetrunk_02.png",
          "imageheight":139,
          "imagewidth":139
         }, 
         {
          "id":46,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_brush_01.png",
+         "image":"..\/..\/object_0\/objects\/steppe_brush_01.png",
          "imageheight":157,
          "imagewidth":121
         }, 
         {
          "id":47,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_brush_02.png",
+         "image":"..\/..\/object_0\/objects\/steppe_brush_02.png",
          "imageheight":127,
          "imagewidth":109
         }, 
         {
          "id":48,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_brush_03.png",
+         "image":"..\/..\/object_0\/objects\/steppe_brush_03.png",
          "imageheight":102,
          "imagewidth":101
         }, 
         {
          "id":49,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_cypress_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/steppe_cypress_01_bottom.png",
          "imageheight":122,
          "imagewidth":122
         }, 
         {
          "id":50,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_cypress_01_top.png",
+         "image":"..\/..\/object_0\/objects\/steppe_cypress_01_top.png",
          "imageheight":204,
          "imagewidth":88
         }, 
         {
          "id":51,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_cypress_02_bottom.png",
+         "image":"..\/..\/object_0\/objects\/steppe_cypress_02_bottom.png",
          "imageheight":148,
          "imagewidth":126
         }, 
         {
          "id":52,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_cypress_02_top.png",
+         "image":"..\/..\/object_0\/objects\/steppe_cypress_02_top.png",
          "imageheight":236,
          "imagewidth":104
         }, 
         {
          "id":53,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_dead_tree_01.png",
+         "image":"..\/..\/object_0\/objects\/steppe_dead_tree_01.png",
          "imageheight":182,
          "imagewidth":218
         }, 
         {
          "id":54,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_dead_tree_02.png",
+         "image":"..\/..\/object_0\/objects\/steppe_dead_tree_02.png",
          "imageheight":184,
          "imagewidth":222
         }, 
         {
          "id":55,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_stone_01.png",
+         "image":"..\/..\/object_0\/objects\/steppe_stone_01.png",
          "imageheight":128,
          "imagewidth":194
         }, 
         {
          "id":56,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_stone_02.png",
+         "image":"..\/..\/object_0\/objects\/steppe_stone_02.png",
          "imageheight":128,
          "imagewidth":205
         }, 
         {
          "id":57,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_stone_03_bottom.png",
+         "image":"..\/..\/object_0\/objects\/steppe_stone_03_bottom.png",
          "imageheight":152,
          "imagewidth":195
         }, 
         {
          "id":58,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_stone_03_top.png",
+         "image":"..\/..\/object_0\/objects\/steppe_stone_03_top.png",
          "imageheight":104,
          "imagewidth":144
         }, 
         {
          "id":59,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_tree_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/steppe_tree_01_bottom.png",
          "imageheight":216,
          "imagewidth":276
         }, 
         {
          "id":60,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_tree_01_middle.png",
+         "image":"..\/..\/object_0\/objects\/steppe_tree_01_middle.png",
          "imageheight":158,
          "imagewidth":262
         }, 
         {
          "id":61,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_tree_01_top.png",
+         "image":"..\/..\/object_0\/objects\/steppe_tree_01_top.png",
          "imageheight":190,
          "imagewidth":308
         }, 
         {
          "id":62,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_tree_02_bottom.png",
+         "image":"..\/..\/object_0\/objects\/steppe_tree_02_bottom.png",
          "imageheight":232,
          "imagewidth":274
         }, 
         {
          "id":63,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_tree_02_middle.png",
+         "image":"..\/..\/object_0\/objects\/steppe_tree_02_middle.png",
          "imageheight":166,
          "imagewidth":276
         }, 
         {
          "id":64,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/steppe_tree_02_top.png",
+         "image":"..\/..\/object_0\/objects\/steppe_tree_02_top.png",
          "imageheight":266,
          "imagewidth":366
         }, 
         {
          "id":65,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/stump_01.png",
+         "image":"..\/..\/object_0\/objects\/stump_01.png",
          "imageheight":175,
          "imagewidth":221
         }, 
         {
          "id":66,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/stump_02.png",
+         "image":"..\/..\/object_0\/objects\/stump_02.png",
          "imageheight":85,
          "imagewidth":168
         }, 
         {
          "id":67,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/stump_03.png",
+         "image":"..\/..\/object_0\/objects\/stump_03.png",
          "imageheight":117,
          "imagewidth":212
         }, 
         {
          "id":68,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/stump_04.png",
+         "image":"..\/..\/object_0\/objects\/stump_04.png",
          "imageheight":108,
          "imagewidth":127
         }, 
         {
          "id":69,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/stump_04_snow.png",
+         "image":"..\/..\/object_0\/objects\/stump_04_snow.png",
          "imageheight":129,
          "imagewidth":127
         }, 
         {
          "id":70,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_01_bottom.png",
          "imageheight":72,
          "imagewidth":64
         }, 
         {
          "id":71,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_01_top.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_01_top.png",
          "imageheight":184,
          "imagewidth":193
         }, 
         {
          "id":72,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_02.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_02.png",
          "imageheight":133,
          "imagewidth":116
         }, 
         {
          "id":73,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_03_bottom.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_03_bottom.png",
          "imageheight":193,
          "imagewidth":98
         }, 
         {
          "id":74,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_03_top.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_03_top.png",
          "imageheight":154,
          "imagewidth":142
         }, 
         {
          "id":75,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_04.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_04.png",
          "imageheight":130,
          "imagewidth":88
         }, 
         {
          "id":76,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_05.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_05.png",
          "imageheight":157,
          "imagewidth":125
         }, 
         {
          "id":77,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_06.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_06.png",
          "imageheight":160,
          "imagewidth":105
         }, 
         {
          "id":78,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_07.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_07.png",
          "imageheight":167,
          "imagewidth":177
         }, 
         {
          "id":79,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_08.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_08.png",
          "imageheight":166,
          "imagewidth":79
         }, 
         {
          "id":80,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_09.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_09.png",
          "imageheight":117,
          "imagewidth":92
         }, 
         {
          "id":81,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_10.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_10.png",
          "imageheight":103,
          "imagewidth":58
         }, 
         {
          "id":82,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_11_bottom.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_11_bottom.png",
          "imageheight":136,
          "imagewidth":201
         }, 
         {
          "id":83,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_11_top.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_11_top.png",
          "imageheight":202,
          "imagewidth":201
         }, 
         {
          "id":84,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_12_bottom.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_12_bottom.png",
          "imageheight":160,
          "imagewidth":194
         }, 
         {
          "id":85,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_tree_12_top.png",
+         "image":"..\/..\/object_0\/objects\/swamp_tree_12_top.png",
          "imageheight":242,
          "imagewidth":206
         }, 
         {
          "id":86,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_treetrunk_01.png",
+         "image":"..\/..\/object_0\/objects\/swamp_treetrunk_01.png",
          "imageheight":90,
          "imagewidth":134
         }, 
         {
          "id":87,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_treetrunk_02.png",
+         "image":"..\/..\/object_0\/objects\/swamp_treetrunk_02.png",
          "imageheight":129,
          "imagewidth":131
         }, 
         {
          "id":88,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_treetrunk_03.png",
+         "image":"..\/..\/object_0\/objects\/swamp_treetrunk_03.png",
          "imageheight":115,
          "imagewidth":171
         }, 
         {
          "id":89,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/swamp_treetrunk_04.png",
+         "image":"..\/..\/object_0\/objects\/swamp_treetrunk_04.png",
          "imageheight":165,
          "imagewidth":214
         }, 
         {
          "id":90,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_01_bottom.png",
          "imageheight":172,
          "imagewidth":256
         }, 
         {
          "id":91,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_01_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_01_top.png",
          "imageheight":300,
          "imagewidth":265
         }, 
         {
          "id":92,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_02_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_02_bottom.png",
          "imageheight":142,
          "imagewidth":200
         }, 
         {
          "id":93,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_02_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_02_top.png",
          "imageheight":268,
          "imagewidth":214
         }, 
         {
          "id":94,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_03_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_03_bottom.png",
          "imageheight":104,
          "imagewidth":180
         }, 
         {
          "id":95,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_03_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_03_top.png",
          "imageheight":198,
          "imagewidth":204
         }, 
         {
          "id":96,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_04_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_04_bottom.png",
          "imageheight":108,
          "imagewidth":114
         }, 
         {
          "id":97,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_04_bottom_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_04_bottom_top.png",
          "imageheight":106,
          "imagewidth":102
         }, 
         {
          "id":98,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_04_middle.png",
+         "image":"..\/..\/object_0\/objects\/tree_04_middle.png",
          "imageheight":118,
          "imagewidth":88
         }, 
         {
          "id":99,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_01_bottom.png",
          "imageheight":110,
          "imagewidth":114
         }, 
         {
          "id":100,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_01_middle.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_01_middle.png",
          "imageheight":118,
          "imagewidth":88
         }, 
         {
          "id":101,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_01_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_01_top.png",
          "imageheight":106,
          "imagewidth":102
         }, 
         {
          "id":102,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_02_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_02_bottom.png",
          "imageheight":302,
          "imagewidth":162
         }, 
         {
          "id":103,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_02_middle.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_02_middle.png",
          "imageheight":210,
          "imagewidth":148
         }, 
         {
          "id":104,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_02_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_02_top.png",
          "imageheight":210,
          "imagewidth":170
         }, 
         {
          "id":105,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_03_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_03_bottom.png",
          "imageheight":174,
          "imagewidth":238
         }, 
         {
          "id":106,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_03_middle.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_03_middle.png",
          "imageheight":398,
          "imagewidth":162
         }, 
         {
          "id":107,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_03_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_03_top.png",
          "imageheight":250,
          "imagewidth":204
         }, 
         {
          "id":108,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_04_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_04_bottom.png",
          "imageheight":162,
          "imagewidth":304
         }, 
         {
          "id":109,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_04_middle.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_04_middle.png",
          "imageheight":266,
          "imagewidth":282
         }, 
         {
          "id":110,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_04_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_04_top.png",
          "imageheight":280,
          "imagewidth":196
         }, 
         {
          "id":111,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_05_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_05_bottom.png",
          "imageheight":154,
          "imagewidth":222
         }, 
         {
          "id":112,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_05_middle.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_05_middle.png",
          "imageheight":372,
          "imagewidth":282
         }, 
         {
          "id":113,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_autumn_05_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_autumn_05_top.png",
          "imageheight":334,
          "imagewidth":212
         }, 
         {
          "id":114,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_desert_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_desert_01_bottom.png",
          "imageheight":74,
          "imagewidth":58
         }, 
         {
          "id":115,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_desert_02_middle.png",
+         "image":"..\/..\/object_0\/objects\/tree_desert_02_middle.png",
          "imageheight":220,
          "imagewidth":208
         }, 
         {
          "id":116,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_desert_02_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_desert_02_top.png",
          "imageheight":170,
          "imagewidth":196
         }, 
         {
          "id":117,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_01_bottom.png",
          "imageheight":82,
          "imagewidth":116
         }, 
         {
          "id":118,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_01_middle.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_01_middle.png",
          "imageheight":162,
          "imagewidth":128
         }, 
         {
          "id":119,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_01_snow_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_01_snow_top.png",
          "imageheight":166,
          "imagewidth":134
         }, 
         {
          "id":120,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_01_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_01_top.png",
          "imageheight":166,
          "imagewidth":132
         }, 
         {
          "id":121,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_02_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_02_bottom.png",
          "imageheight":126,
          "imagewidth":190
         }, 
         {
          "id":122,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_02_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_02_top.png",
          "imageheight":312,
          "imagewidth":253
         }, 
         {
          "id":123,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_03_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_03_bottom.png",
          "imageheight":110,
          "imagewidth":96
         }, 
         {
          "id":124,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_03_middle.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_03_middle.png",
          "imageheight":134,
          "imagewidth":90
         }, 
         {
          "id":125,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_03_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_03_top.png",
          "imageheight":156,
          "imagewidth":96
         }, 
         {
          "id":126,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_snow_02_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_snow_02_bottom.png",
          "imageheight":122,
          "imagewidth":190
         }, 
         {
          "id":127,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_snow_02_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_snow_02_top.png",
          "imageheight":312,
          "imagewidth":253
         }, 
         {
          "id":128,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_needle_snow_03_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_needle_snow_03_top.png",
          "imageheight":160,
          "imagewidth":96
         }, 
         {
          "id":129,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_small_desert_01_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tree_small_desert_01_bottom.png",
          "imageheight":182,
          "imagewidth":150
         }, 
         {
          "id":130,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tree_small_desert_01_top.png",
+         "image":"..\/..\/object_0\/objects\/tree_small_desert_01_top.png",
          "imageheight":132,
          "imagewidth":205
         }, 
         {
          "id":131,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tundra_brush_01.png",
+         "image":"..\/..\/object_0\/objects\/tundra_brush_01.png",
          "imageheight":161,
          "imagewidth":140
         }, 
         {
          "id":132,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tundra_brush_02.png",
+         "image":"..\/..\/object_0\/objects\/tundra_brush_02.png",
          "imageheight":157,
          "imagewidth":121
         }, 
         {
          "id":133,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tundra_brush_03.png",
+         "image":"..\/..\/object_0\/objects\/tundra_brush_03.png",
          "imageheight":127,
          "imagewidth":109
         }, 
         {
          "id":134,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tundra_stone_01.png",
+         "image":"..\/..\/object_0\/objects\/tundra_stone_01.png",
          "imageheight":136,
          "imagewidth":182
         }, 
         {
          "id":135,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tundra_stone_02_bottom.png",
+         "image":"..\/..\/object_0\/objects\/tundra_stone_02_bottom.png",
          "imageheight":158,
          "imagewidth":150
         }, 
         {
          "id":136,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/tundra_stone_02_top.png",
+         "image":"..\/..\/object_0\/objects\/tundra_stone_02_top.png",
          "imageheight":130,
          "imagewidth":132
         }, 
         {
          "id":137,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/web_01.png",
+         "image":"..\/..\/object_0\/objects\/web_01.png",
          "imageheight":162,
          "imagewidth":232
         }, 
         {
          "id":138,
-         "image":"..\/..\/Code\/Tiled\/object_0\/objects\/web_03.png",
+         "image":"..\/..\/object_0\/objects\/web_03.png",
          "imageheight":107,
          "imagewidth":146
         }, 
         {
          "id":139,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_01.png",
          "imageheight":62,
          "imagewidth":92
         }, 
         {
          "id":140,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_02.png",
          "imageheight":95,
          "imagewidth":98
         }, 
         {
          "id":141,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_03.png",
          "imageheight":102,
          "imagewidth":159
         }, 
         {
          "id":142,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_04.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_04.png",
          "imageheight":70,
          "imagewidth":162
         }, 
         {
          "id":143,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_05.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_05.png",
          "imageheight":68,
          "imagewidth":135
         }, 
         {
          "id":144,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_06.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_06.png",
          "imageheight":74,
          "imagewidth":153
         }, 
         {
          "id":145,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_07.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_07.png",
          "imageheight":92,
          "imagewidth":134
         }, 
         {
          "id":146,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_08_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_08_bottom.png",
          "imageheight":94,
          "imagewidth":184
         }, 
         {
          "id":147,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_08_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_08_top.png",
          "imageheight":134,
          "imagewidth":154
         }, 
         {
          "id":148,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_09_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_09_bottom.png",
          "imageheight":114,
          "imagewidth":165
         }, 
         {
          "id":149,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_09_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_09_top.png",
          "imageheight":156,
          "imagewidth":136
         }, 
         {
          "id":150,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_10.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_10.png",
          "imageheight":140,
          "imagewidth":150
         }, 
         {
          "id":151,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_11.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_11.png",
          "imageheight":141,
          "imagewidth":152
         }, 
         {
          "id":152,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_12.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_12.png",
          "imageheight":142,
          "imagewidth":135
         }, 
         {
          "id":153,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_13.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_13.png",
          "imageheight":86,
          "imagewidth":170
         }, 
         {
          "id":154,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_14.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_14.png",
          "imageheight":73,
          "imagewidth":106
         }, 
         {
          "id":155,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_15.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_15.png",
          "imageheight":66,
          "imagewidth":106
         }, 
         {
          "id":156,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_17_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_17_bottom.png",
          "imageheight":100,
          "imagewidth":166
         }, 
         {
          "id":157,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_17_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_17_top.png",
          "imageheight":178,
          "imagewidth":144
         }, 
         {
          "id":158,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_18_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_18_bottom.png",
          "imageheight":164,
          "imagewidth":165
         }, 
         {
          "id":159,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_18_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_18_top.png",
          "imageheight":110,
          "imagewidth":138
         }, 
         {
          "id":160,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_19.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_19.png",
          "imageheight":82,
          "imagewidth":195
         }, 
         {
          "id":161,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_20.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_20.png",
          "imageheight":149,
          "imagewidth":176
         }, 
         {
          "id":162,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_21_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_21_bottom.png",
          "imageheight":122,
          "imagewidth":153
         }, 
         {
          "id":163,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_21_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_21_top.png",
          "imageheight":88,
          "imagewidth":118
         }, 
         {
          "id":164,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_22_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_22_bottom.png",
          "imageheight":104,
          "imagewidth":153
         }, 
         {
          "id":165,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_22_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_22_top.png",
          "imageheight":108,
          "imagewidth":88
         }, 
         {
          "id":166,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_23_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_23_bottom.png",
          "imageheight":116,
          "imagewidth":152
         }, 
         {
          "id":167,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_23_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_23_top.png",
          "imageheight":104,
          "imagewidth":80
         }, 
         {
          "id":168,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_24_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_24_bottom.png",
          "imageheight":110,
          "imagewidth":145
         }, 
         {
          "id":169,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_24_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_24_top.png",
          "imageheight":118,
          "imagewidth":112
         }, 
         {
          "id":170,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_28.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_28.png",
          "imageheight":72,
          "imagewidth":140
         }, 
         {
          "id":171,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_29_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_29_01.png",
          "imageheight":111,
          "imagewidth":180
         }, 
         {
          "id":172,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_29_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_29_02.png",
          "imageheight":108,
          "imagewidth":180
         }, 
         {
          "id":173,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_29_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_29_03.png",
          "imageheight":82,
          "imagewidth":182
         }, 
         {
          "id":174,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_29_04.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_29_04.png",
          "imageheight":137,
          "imagewidth":150
         }, 
         {
          "id":175,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_29_05.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_29_05.png",
          "imageheight":82,
          "imagewidth":182
         }, 
         {
          "id":176,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_29_06.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_29_06.png",
          "imageheight":126,
          "imagewidth":120
         }, 
         {
          "id":177,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_29_07.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_29_07.png",
          "imageheight":134,
          "imagewidth":120
         }, 
         {
          "id":178,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_29_08.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_29_08.png",
          "imageheight":130,
          "imagewidth":140
         }, 
         {
          "id":179,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_30.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_30.png",
          "imageheight":161,
          "imagewidth":99
         }, 
         {
          "id":180,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_31_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_31_bottom.png",
          "imageheight":164,
          "imagewidth":154
         }, 
         {
          "id":181,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_31_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_31_top.png",
          "imageheight":112,
          "imagewidth":106
         }, 
         {
          "id":182,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_32_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_32_bottom.png",
          "imageheight":82,
          "imagewidth":154
         }, 
         {
          "id":183,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_32_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_32_top.png",
          "imageheight":160,
          "imagewidth":154
         }, 
         {
          "id":184,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/graveyard_33.png",
+         "image":"..\/..\/object_1\/combat_objects\/graveyard_33.png",
          "imageheight":96,
          "imagewidth":162
         }, 
         {
          "id":185,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/phylactery.png",
+         "image":"..\/..\/object_1\/combat_objects\/phylactery.png",
          "imageheight":102,
          "imagewidth":82
         }, 
         {
          "id":186,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/phylactery_destroyed.png",
+         "image":"..\/..\/object_1\/combat_objects\/phylactery_destroyed.png",
          "imageheight":81,
          "imagewidth":87
         }, 
         {
          "id":187,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_01.png",
          "imageheight":77,
          "imagewidth":152
         }, 
         {
          "id":188,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_02.png",
          "imageheight":79,
          "imagewidth":157
         }, 
         {
          "id":189,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_03.png",
          "imageheight":125,
          "imagewidth":158
         }, 
         {
          "id":190,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_04.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_04.png",
          "imageheight":128,
          "imagewidth":173
         }, 
         {
          "id":191,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_05.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_05.png",
          "imageheight":149,
          "imagewidth":158
         }, 
         {
          "id":192,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_06.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_06.png",
          "imageheight":135,
          "imagewidth":178
         }, 
         {
          "id":193,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_10.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_10.png",
          "imageheight":106,
          "imagewidth":152
         }, 
         {
          "id":194,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_11.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_11.png",
          "imageheight":123,
          "imagewidth":171
         }, 
         {
          "id":195,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_12.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_12.png",
          "imageheight":99,
          "imagewidth":160
         }, 
         {
          "id":196,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_14.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_14.png",
          "imageheight":116,
          "imagewidth":198
         }, 
         {
          "id":197,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_15.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_15.png",
          "imageheight":118,
          "imagewidth":162
         }, 
         {
          "id":198,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_16.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_16.png",
          "imageheight":121,
          "imagewidth":166
         }, 
         {
          "id":199,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_17_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_17_bottom.png",
          "imageheight":118,
          "imagewidth":176
         }, 
         {
          "id":200,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_17_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_17_top.png",
          "imageheight":90,
          "imagewidth":124
         }, 
         {
          "id":201,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_18_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_18_01.png",
          "imageheight":116,
          "imagewidth":159
         }, 
         {
          "id":202,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_18_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_18_02.png",
          "imageheight":116,
          "imagewidth":150
         }, 
         {
          "id":203,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_18_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_18_03.png",
          "imageheight":113,
          "imagewidth":159
         }, 
         {
          "id":204,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_18_04.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_18_04.png",
          "imageheight":136,
          "imagewidth":150
         }, 
         {
          "id":205,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_18_05.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_18_05.png",
          "imageheight":113,
          "imagewidth":159
         }, 
         {
          "id":206,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_18_06.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_18_06.png",
          "imageheight":133,
          "imagewidth":94
         }, 
         {
          "id":207,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_18_07.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_18_07.png",
          "imageheight":133,
          "imagewidth":94
         }, 
         {
          "id":208,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Bandit Camp\/camp_18_08.png",
+         "image":"..\/..\/object_1\/combat_objects\/Bandit Camp\/camp_18_08.png",
          "imageheight":136,
          "imagewidth":154
         }, 
         {
          "id":209,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_01.png",
          "imageheight":134,
          "imagewidth":121
         }, 
         {
          "id":210,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_02.png",
          "imageheight":94,
          "imagewidth":172
         }, 
         {
          "id":211,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_03.png",
          "imageheight":137,
          "imagewidth":92
         }, 
         {
          "id":212,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_04_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_04_bottom.png",
          "imageheight":112,
          "imagewidth":171
         }, 
         {
          "id":213,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_04_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_04_top.png",
          "imageheight":106,
          "imagewidth":134
         }, 
         {
          "id":214,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_05_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_05_bottom.png",
          "imageheight":88,
          "imagewidth":75
         }, 
         {
          "id":215,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_05_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_05_top.png",
          "imageheight":104,
          "imagewidth":40
         }, 
         {
          "id":216,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_06_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_06_bottom.png",
          "imageheight":150,
          "imagewidth":203
         }, 
         {
          "id":217,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_06_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_06_top.png",
          "imageheight":146,
          "imagewidth":134
         }, 
         {
          "id":218,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_07_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_07_bottom.png",
          "imageheight":186,
          "imagewidth":191
         }, 
         {
          "id":219,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_07_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_07_top.png",
          "imageheight":190,
          "imagewidth":156
         }, 
         {
          "id":220,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_08_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_08_bottom.png",
          "imageheight":164,
          "imagewidth":162
         }, 
         {
          "id":221,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Barbarians\/barbarians_08_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Barbarians\/barbarians_08_top.png",
          "imageheight":130,
          "imagewidth":146
         }, 
         {
          "id":222,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_01.png",
          "imageheight":130,
          "imagewidth":149
         }, 
         {
          "id":223,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_02.png",
          "imageheight":102,
          "imagewidth":157
         }, 
         {
          "id":224,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_03.png",
          "imageheight":91,
          "imagewidth":168
         }, 
         {
          "id":225,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_04.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_04.png",
          "imageheight":93,
          "imagewidth":146
         }, 
         {
          "id":226,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_05.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_05.png",
          "imageheight":134,
          "imagewidth":173
         }, 
         {
          "id":227,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_06.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_06.png",
          "imageheight":92,
          "imagewidth":135
         }, 
         {
          "id":228,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_07.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_07.png",
          "imageheight":117,
          "imagewidth":155
         }, 
         {
          "id":229,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_08.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_08.png",
          "imageheight":135,
          "imagewidth":179
         }, 
         {
          "id":230,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_09_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_09_bottom.png",
          "imageheight":134,
          "imagewidth":88
         }, 
         {
          "id":231,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_09_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_09_top.png",
          "imageheight":122,
          "imagewidth":76
         }, 
         {
          "id":232,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_10_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_10_bottom.png",
          "imageheight":132,
          "imagewidth":114
         }, 
         {
          "id":233,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_10_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_10_top.png",
          "imageheight":168,
          "imagewidth":124
         }, 
         {
          "id":234,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_11_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_11_bottom.png",
          "imageheight":142,
          "imagewidth":183
         }, 
         {
          "id":235,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Desert Raiders\/desert_camp_11_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Desert Raiders\/desert_camp_11_top.png",
          "imageheight":64,
          "imagewidth":148
         }, 
         {
          "id":236,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_01.png",
          "imageheight":128,
          "imagewidth":144
         }, 
         {
          "id":237,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_02.png",
          "imageheight":91,
          "imagewidth":170
         }, 
         {
          "id":238,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_03.png",
          "imageheight":140,
          "imagewidth":221
         }, 
         {
          "id":239,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_04.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_04.png",
          "imageheight":151,
          "imagewidth":179
         }, 
         {
          "id":240,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_05_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_05_bottom.png",
          "imageheight":152,
          "imagewidth":145
         }, 
         {
          "id":241,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_05_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_05_top.png",
          "imageheight":84,
          "imagewidth":92
         }, 
         {
          "id":242,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_06_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_06_bottom.png",
          "imageheight":116,
          "imagewidth":147
         }, 
         {
          "id":243,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_06_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_06_top.png",
          "imageheight":106,
          "imagewidth":116
         }, 
         {
          "id":244,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_07_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_07_bottom.png",
          "imageheight":166,
          "imagewidth":186
         }, 
         {
          "id":245,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_07_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_07_top.png",
          "imageheight":146,
          "imagewidth":186
         }, 
         {
          "id":246,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_08_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_08_bottom.png",
          "imageheight":116,
          "imagewidth":112
         }, 
         {
          "id":247,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Goblins\/goblins_08_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Goblins\/goblins_08_top.png",
          "imageheight":100,
          "imagewidth":74
         }, 
         {
          "id":248,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Golems\/flesh_cradle_01_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Golems\/flesh_cradle_01_bottom.png",
          "imageheight":116,
          "imagewidth":160
         }, 
         {
          "id":249,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Golems\/flesh_cradle_01_destroyed.png",
+         "image":"..\/..\/object_1\/combat_objects\/Golems\/flesh_cradle_01_destroyed.png",
          "imageheight":126,
          "imagewidth":166
         }, 
         {
          "id":250,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Golems\/flesh_cradle_01_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Golems\/flesh_cradle_01_top.png",
          "imageheight":86,
          "imagewidth":116
         }, 
         {
          "id":251,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orc_palisade_29_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orc_palisade_29_01.png",
          "imageheight":138,
          "imagewidth":144
         }, 
         {
          "id":252,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orc_palisade_29_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orc_palisade_29_02.png",
          "imageheight":138,
          "imagewidth":144
         }, 
         {
          "id":253,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orc_palisade_29_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orc_palisade_29_03.png",
          "imageheight":131,
          "imagewidth":191
         }, 
         {
          "id":254,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orc_palisade_29_04.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orc_palisade_29_04.png",
          "imageheight":148,
          "imagewidth":138
         }, 
         {
          "id":255,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orc_palisade_29_05.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orc_palisade_29_05.png",
          "imageheight":131,
          "imagewidth":191
         }, 
         {
          "id":256,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orc_palisade_29_06.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orc_palisade_29_06.png",
          "imageheight":147,
          "imagewidth":134
         }, 
         {
          "id":257,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orc_palisade_29_07.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orc_palisade_29_07.png",
          "imageheight":147,
          "imagewidth":116
         }, 
         {
          "id":258,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orc_palisade_29_08.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orc_palisade_29_08.png",
          "imageheight":148,
          "imagewidth":143
         }, 
         {
          "id":259,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_01.png",
          "imageheight":111,
          "imagewidth":164
         }, 
         {
          "id":260,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_02.png",
          "imageheight":110,
          "imagewidth":153
         }, 
         {
          "id":261,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_03.png",
          "imageheight":121,
          "imagewidth":155
         }, 
         {
          "id":262,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_04.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_04.png",
          "imageheight":124,
          "imagewidth":136
         }, 
         {
          "id":263,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_05.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_05.png",
          "imageheight":136,
          "imagewidth":135
         }, 
         {
          "id":264,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_06.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_06.png",
          "imageheight":125,
          "imagewidth":149
         }, 
         {
          "id":265,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_07.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_07.png",
          "imageheight":68,
          "imagewidth":170
         }, 
         {
          "id":266,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_08.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_08.png",
          "imageheight":159,
          "imagewidth":168
         }, 
         {
          "id":267,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_09.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_09.png",
          "imageheight":153,
          "imagewidth":181
         }, 
         {
          "id":268,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_10_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_10_bottom.png",
          "imageheight":140,
          "imagewidth":152
         }, 
         {
          "id":269,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_10_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_10_top.png",
          "imageheight":78,
          "imagewidth":90
         }, 
         {
          "id":270,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_11_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_11_bottom.png",
          "imageheight":160,
          "imagewidth":201
         }, 
         {
          "id":271,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_11_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_11_top.png",
          "imageheight":154,
          "imagewidth":168
         }, 
         {
          "id":272,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_12_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_12_bottom.png",
          "imageheight":122,
          "imagewidth":140
         }, 
         {
          "id":273,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_12_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_12_top.png",
          "imageheight":86,
          "imagewidth":112
         }, 
         {
          "id":274,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_13_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_13_bottom.png",
          "imageheight":118,
          "imagewidth":136
         }, 
         {
          "id":275,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_13_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_13_top.png",
          "imageheight":130,
          "imagewidth":84
         }, 
         {
          "id":276,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_14_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_14_bottom.png",
          "imageheight":134,
          "imagewidth":169
         }, 
         {
          "id":277,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_14_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_14_top.png",
          "imageheight":180,
          "imagewidth":126
         }, 
         {
          "id":278,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_15.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_15.png",
          "imageheight":194,
          "imagewidth":78
         }, 
         {
          "id":279,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Orcs\/orcs_16.png",
+         "image":"..\/..\/object_1\/combat_objects\/Orcs\/orcs_16.png",
          "imageheight":172,
          "imagewidth":102
         }, 
         {
          "id":280,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_01.png",
          "imageheight":111,
          "imagewidth":199
         }, 
         {
          "id":281,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_02.png",
          "imageheight":81,
          "imagewidth":167
         }, 
         {
          "id":282,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_03.png",
          "imageheight":92,
          "imagewidth":156
         }, 
         {
          "id":283,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_04_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_04_bottom.png",
          "imageheight":146,
          "imagewidth":215
         }, 
         {
          "id":284,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_04_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_04_top.png",
          "imageheight":106,
          "imagewidth":78
         }, 
         {
          "id":285,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_05_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_05_bottom.png",
          "imageheight":164,
          "imagewidth":191
         }, 
         {
          "id":286,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_05_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_05_top.png",
          "imageheight":116,
          "imagewidth":88
         }, 
         {
          "id":287,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_06_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_06_bottom.png",
          "imageheight":120,
          "imagewidth":181
         }, 
         {
          "id":288,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_06_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_06_top.png",
          "imageheight":166,
          "imagewidth":152
         }, 
         {
          "id":289,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_07_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_07_bottom.png",
          "imageheight":158,
          "imagewidth":177
         }, 
         {
          "id":290,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_07_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_07_top.png",
          "imageheight":126,
          "imagewidth":124
         }, 
         {
          "id":291,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_08.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_08.png",
          "imageheight":114,
          "imagewidth":162
         }, 
         {
          "id":292,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_09.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_09.png",
          "imageheight":149,
          "imagewidth":159
         }, 
         {
          "id":293,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_10_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_10_bottom.png",
          "imageheight":104,
          "imagewidth":153
         }, 
         {
          "id":294,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_10_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_10_top.png",
          "imageheight":100,
          "imagewidth":88
         }, 
         {
          "id":295,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_11_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_11_bottom.png",
          "imageheight":104,
          "imagewidth":153
         }, 
         {
          "id":296,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_11_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_11_top.png",
          "imageheight":80,
          "imagewidth":114
         }, 
         {
          "id":297,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_12_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_12_bottom.png",
          "imageheight":197,
          "imagewidth":153
         }, 
         {
          "id":298,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_12_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_12_top.png",
          "imageheight":106,
          "imagewidth":94
         }, 
         {
          "id":299,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_13_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_13_bottom.png",
          "imageheight":116,
          "imagewidth":145
         }, 
         {
          "id":300,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_13_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_13_top.png",
          "imageheight":120,
          "imagewidth":122
         }, 
         {
          "id":301,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_31_bottom.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_31_bottom.png",
          "imageheight":168,
          "imagewidth":154
         }, 
         {
          "id":302,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_31_top.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_31_top.png",
          "imageheight":112,
          "imagewidth":112
         }, 
         {
          "id":303,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_01.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_01.png",
          "imageheight":118,
          "imagewidth":187
         }, 
         {
          "id":304,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_02.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_02.png",
          "imageheight":118,
          "imagewidth":187
         }, 
         {
          "id":305,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_03.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_03.png",
          "imageheight":87,
          "imagewidth":195
         }, 
         {
          "id":306,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_04.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_04.png",
          "imageheight":137,
          "imagewidth":149
         }, 
         {
          "id":307,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_05.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_05.png",
          "imageheight":87,
          "imagewidth":195
         }, 
         {
          "id":308,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_06.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_06.png",
          "imageheight":124,
          "imagewidth":120
         }, 
         {
          "id":309,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_07.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_07.png",
          "imageheight":124,
          "imagewidth":120
         }, 
         {
          "id":310,
-         "image":"..\/..\/Code\/Tiled\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_08.png",
+         "image":"..\/..\/object_1\/combat_objects\/Southern ruins\/southern_ruins_wall_29_08.png",
          "imageheight":137,
          "imagewidth":149
         }],

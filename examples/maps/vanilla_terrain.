@@ -14,307 +14,307 @@
  "tiles":[
         {
          "id":0,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/autumn_01.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/autumn_01.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":1,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/autumn_02.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/autumn_02.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":2,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/autumn_03.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/autumn_03.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":3,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/autumn_04.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/autumn_04.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":4,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/autumn_05.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/autumn_05.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":5,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/desert_01.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/desert_01.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":6,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/desert_02.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/desert_02.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":7,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/desert_03.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/desert_03.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":8,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/desert_04.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/desert_04.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":9,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/desert_05.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/desert_05.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":10,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/desert_06.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/desert_06.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":11,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/desert_07.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/desert_07.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":12,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/earth_01.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/earth_01.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":13,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/grass_01.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/grass_01.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":14,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/grass_02.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/grass_02.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":15,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/moss_01.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/moss_01.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":16,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/moss_02.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/moss_02.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":17,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/snow_01.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/snow_01.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":18,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/snow_02.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/snow_02.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":19,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/snow_03.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/snow_03.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":20,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/snow_04.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/snow_04.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":21,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/socket_desert.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/socket_desert.png",
          "imageheight":100,
          "imagewidth":180
         }, 
         {
          "id":22,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/socket_snow.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/socket_snow.png",
          "imageheight":100,
          "imagewidth":180
         }, 
         {
          "id":23,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/socket_steppe.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/socket_steppe.png",
          "imageheight":100,
          "imagewidth":180
         }, 
         {
          "id":24,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/socket_stone.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/socket_stone.png",
          "imageheight":100,
          "imagewidth":180
         }, 
         {
          "id":25,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/steppe_01.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/steppe_01.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":26,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/steppe_02.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/steppe_02.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":27,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/steppe_03.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/steppe_03.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":28,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/steppe_04.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/steppe_04.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":29,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/steppe_05.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/steppe_05.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":30,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/swamp_01.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/swamp_01.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":31,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/swamp_02.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/swamp_02.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":32,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/swamp_03.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/swamp_03.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":33,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/swamp_04.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/swamp_04.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":34,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/swamp_05.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/swamp_05.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":35,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/tile_forest_01.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/tile_forest_01.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":36,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/tile_forest_02.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/tile_forest_02.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":37,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/tile_road_dirt.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/tile_road_dirt.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":38,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/tundra_01.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/tundra_01.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":39,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/tundra_02.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/tundra_02.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":40,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/tundra_03.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/tundra_03.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":41,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/tundra_04.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/tundra_04.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":42,
-         "image":"..\/..\/Code\/Tiled\/terrain\/tactical_tiles\/tundra_05.png",
+         "image":"..\/..\/terrain\/tactical_tiles\/tundra_05.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":43,
-         "image":"..\/..\/Code\/Tiled\/terrain\/terrain\/socket_earth.png",
+         "image":"..\/..\/terrain\/terrain\/socket_earth.png",
          "imageheight":100,
          "imagewidth":180
         }, 
         {
          "id":44,
-         "image":"..\/..\/Code\/Tiled\/terrain\/terrain\/tile_forest_light.png",
+         "image":"..\/..\/terrain\/terrain\/tile_forest_light.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":45,
-         "image":"..\/..\/Code\/Tiled\/terrain\/terrain\/tile_inside.png",
+         "image":"..\/..\/terrain\/terrain\/tile_inside.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":46,
-         "image":"..\/..\/Code\/Tiled\/terrain\/terrain\/tile_road.png",
+         "image":"..\/..\/terrain\/terrain\/tile_road.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":47,
-         "image":"..\/..\/Code\/Tiled\/terrain\/terrain\/zone_of_control_overlay.png",
+         "image":"..\/..\/terrain\/terrain\/zone_of_control_overlay.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":48,
-         "image":"..\/..\/Code\/Tiled\/terrain\/terrain\/zone_range_overlay.png",
+         "image":"..\/..\/terrain\/terrain\/zone_range_overlay.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":49,
-         "image":"..\/..\/Code\/Tiled\/terrain\/terrain\/zone_selection_overlay.png",
+         "image":"..\/..\/terrain\/terrain\/zone_selection_overlay.png",
          "imageheight":110,
          "imagewidth":170
         }, 
         {
          "id":50,
-         "image":"..\/..\/Code\/Tiled\/terrain\/terrain\/zone_target_overlay.png",
+         "image":"..\/..\/terrain\/terrain\/zone_target_overlay.png",
          "imageheight":110,
          "imagewidth":170
         }],

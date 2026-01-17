@@ -3,7 +3,7 @@
  <editorsettings>
   <export target="testmap.json" format="json"/>
  </editorsettings>
- <tileset firstgid="1" source="BBterrain.tsj"/>
+ <tileset firstgid="1" source="../tilesets/BBterrain.tsj"/>
  <layer id="6" name="height base" width="30" height="20">
   <data encoding="csv">
 9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,

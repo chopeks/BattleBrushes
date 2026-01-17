@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.8" tiledversion="1.8.0" orientation="hexagonal" renderorder="right-down" width="30" height="20" tilewidth="170" tileheight="80" infinite="0" hexsidelength="78" staggeraxis="x" staggerindex="odd" nextlayerid="8" nextobjectid="1">
- <tileset firstgid="1" source="vanilla_terrain.tsj"/>
- <tileset firstgid="52" source="vanilla_objects.tsj"/>
+ <tileset firstgid="1" source="../tilesets/vanilla_terrain.tsj"/>
+ <tileset firstgid="52" source="../tilesets/vanilla_objects.tsj"/>
  <layer id="1" name="Height_0" width="30" height="20">
   <data encoding="csv">
 14,14,14,14,14,14,14,14,14,14,14,14,19,19,19,18,19,19,43,43,43,43,43,42,42,42,42,42,42,42,

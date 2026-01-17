@@ -262,7 +262,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"vanilla_terrain.tsj"
+         "source":"../tilesets/vanilla_terrain.tsj"
         }],
  "tilewidth":170,
  "type":"map",
