@@ -1,0 +1,41 @@
+socket_desert   
+- bottom left   1, 1023 
+- bottom right  181, 1023
+- top right     181, 923
+- top left      1, 923 
+
+socket_steppe 
+- bottom left   188, 1023 
+- bottom right  368, 1023 
+- top right     368, 923 
+- top left      188, 923 
+
+tundra_05 
+- bottom left   378, 1023
+- bottom right  548, 1023
+- top right     548, 913
+- top left      378, 913
+
+desert_01
+- bottom left   554, 1023
+- bottom right  724, 1023
+- top right     274, 913
+- top left      554, 913
+
+socket_snow     
+- bottom left   1, 915
+- bottom right  181, 915
+- top right     181, 815
+- top left      1, 815
+
+socket_stone
+- bottom left   188, 915
+- bottom right  368, 915
+- top right     368, 815
+- top left      188, 815
+
+autumn_05
+- bottom left   378, 905
+- bottom righ   548, 905
+- top right     538, 795
+- top left      378, 795

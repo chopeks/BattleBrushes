@@ -1,0 +1,27 @@
+# Coordinate Flip Fix for Battle Brothers Brush Plugin
+
+## Problem
+Battle Brothers uses bottom-left origin coordinates, but image formats use top-left origin.
+This causes all sprites to appear upside down.
+
+## Solution 
+In the `loadAtlasAndCropSprites` function, find this line:
+```cpp
+QRect cropRect = spriteRecord.rect;
+```
+
+Replace it with:
+```cpp
+QRect cropRect = spriteRecord.rect;
+
+// Flip Y coordinates from bottom-left to top-left origin
+int atlasHeight = atlas.height();
+int flippedTop = atlasHeight - cropRect.bottom();
+int flippedBottom = atlasHeight - cropRect.top();
+cropRect = QRect(cropRect.left(), flippedTop, cropRect.width(), flippedBottom - flippedTop);
+```
+
+## Expected Result
+- All sprites should no longer be upside down
+- Sprites should be cropped from correct locations in atlas
+- No more triangular fragments

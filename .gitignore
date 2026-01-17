@@ -1,0 +1,10 @@
+# Build artifacts
+default/
+build/
+*.o
+*.so
+*.a
+
+# Unpacked assets (if not needed)
+unpacked/
+
